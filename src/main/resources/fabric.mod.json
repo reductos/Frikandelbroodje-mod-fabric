@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "id": "frikandelbroodje",
+  "version": "${version}",
+
+  "name": "Frikandelbroodje",
+  "description": "Frikandelbroodje met een blikje energy gap",
+  "authors": [
+    "Reductos"
+  ],
+  "contact": {
+    "homepage": "https://www.curseforge.com/minecraft/mc-mods/frikandelbroodje",
+    "sources": "https://github.com/reductos/Frikandelbroodje-mod-fabric"
+  },
+
+  "license": "all rights reserved",
+  "icon": "frikandelbroodje_logo.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.reductos.frikandelbroodje.Frikandelbroodje"
+    ]
+  },
+  "mixins": [
+    "frikandelbroodje.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.13.3",
+    "fabric": "*",
+    "minecraft": "~1.18.2",
+    "java": ">=17"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}
